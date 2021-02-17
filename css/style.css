@@ -1,0 +1,35 @@
+.booking-section {
+    background-image: url(../images/home-image1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.left-txt {
+    font-size: 40px;
+}
+
+.footer {
+    background-color: darkblue;
+}
+
+.footer p {
+    font-size: 12px;
+}
+
+.login {
+    background-color: darkblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    padding-left: 8px;
+    border-radius: 10px;
+}
+
+.login-contactus {
+    background-color: darkblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    padding-left: 8px;
+}

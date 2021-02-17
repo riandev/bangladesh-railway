@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.css">
+    <title>Bangladesh Railway</title>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" alt="" width="80" height="74" class="d-inline-block align-middle"> Bangladesh Railway
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse d-flex justify-content-lg-end p-3 me-3" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" href="login.html">Login</a>
+                        <a class="nav-link active" href="register.html">Register</a>
+                        <a class="nav-link active" href="verify.html">Verify Ticket</a>
+                        <a class="nav-link active" href="contactus.html">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <main>
+        <img src="images/verify-banner.png" class="img-fluid" alt="...">
+        <section>
+            <div class="container mt-5 w-100 row ms-3">
+                <div class="card-body">
+                    <h5 class="login"><i class="fas fa-certificate"></i> Verify Ticket</h5>
+                </div>
+                <div class="card col-6">
+                    <div class="mb-3 w-100">
+                        <h4 class="pt-3">Route</h4>
+                        <select class="form-select" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                    <div class="mb-3 w-100">
+                        <label for="formGroupExampleInput" class="form-label">Pin</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Pin">
+                    </div>
+                    <div class="mb-3 w-100">
+                        <label for="formGroupExampleInput2" class="form-label">Confirm Mobile</label>
+                        <div class="input-group ">
+                            <span class="input-group-text">+880</span>
+                            <input type="text" aria-label="First name" class="form-control" placeholder="Mobile">
+                        </div>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-danger mb-3" type="button">Verify</button>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="shadow-none ms-5 p-3 mb-5 bg-light rounded">Verify ticket</div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-5 footer">
+            <div class="container">
+                <h6 class="text-white pt-3">To Download the app</h6>
+                <div class="d-grid gap-2 d-md-block">
+                    <button class="btn btn-light" type="button"><i class="fab fa-google-play"></i>  Google Play</button>
+                    <button class="btn btn-light" type="button"><i class="fab fa-apple"></i>  App Store</button>
+                </div>
+                <p class="text-white pb-2">© Rashaduzamman Rian 2021</p>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/all.js"></script>
+</body>
+
+</html>
